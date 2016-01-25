@@ -95,6 +95,8 @@ p {
   margin-left: 10%;
   font-weight: 300;
   width: 70%; }
+  .marketing a, .development a {
+    font-size: 24px; }
 
 .aboutMe {
   display: inline-block;
@@ -105,6 +107,9 @@ p {
   .aboutMe h2, .aboutMe h3, .aboutMe h4, .aboutMe h5 {
     margin: 0;
     padding: 0; }
+  .aboutMe a {
+    font-size: 24px;
+    padding-right: 0; }
 
 a {
   color: white;
@@ -158,3 +163,67 @@ li {
 .me {
   max-height: 200px;
   display: inline-block; }
+
+@media (max-width: 800px) and (min-width: 501px) {
+  .name {
+    margin-top: 0;
+    margin-bottom: 4%; }
+    .name h1 {
+      font-size: 80px; }
+  .name1 {
+    font-size: 25px; }
+  .aboutMe h1 {
+    margin: 0; }
+  .aboutMe h2 {
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 2%; }
+  .development h3 {
+    font-size: 24px; }
+  .title {
+    margin: 0; }
+  ul {
+    margin-top: 0; }
+  .line {
+    margin: 0;
+    padding: 0; }
+    .line h2 {
+      font-size: 34px; }
+    .line p {
+      font-size: 14px; } }
+
+@media (max-width: 500px) and (min-width: 101px) {
+  .name {
+    font-size: 50px;
+    margin-top: 0; }
+  .name1 {
+    font-size: 20px; }
+  .aboutMe {
+    width: 60%;
+    margin-left: 10%; }
+    .aboutMe h1 {
+      margin: 0; }
+    .aboutMe h2 {
+      font-size: 22px;
+      font-weight: bolder;
+      padding-bottom: 2%; }
+    .aboutMe h4 {
+      font-size: 16px; }
+    .aboutMe a {
+      font-size: 16px; }
+  .development {
+    width: 60%;
+    margin-left: 16%; }
+    .development h3 {
+      font-size: 20px; }
+    .development h4 {
+      margin-top: 0;
+      font-size: 20px;
+      padding-bottom: 0; }
+  .line h2 {
+    font-size: 24px; }
+  .line p {
+    font-size: 12px; }
+  .development .title, .marketing .title {
+    margin: 0;
+    font-size: 50px; } }
